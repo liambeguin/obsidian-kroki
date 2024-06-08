@@ -80,6 +80,8 @@ export default class KrokiPlugin extends Plugin {
         // if (result.ok) {
         dest.innerHTML = result;
         dest.children[0].setAttr("name", encodedSource);
+        dest.children[0].setAttr("width", "100%");
+        dest.children[0].setAttr("height", "100%");
         // }
         el.appendChild(dest);
     };
