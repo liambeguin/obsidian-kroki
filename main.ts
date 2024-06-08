@@ -20,6 +20,8 @@ const DEFAULT_SETTINGS: KrokiSettings = {
     server_url: 'https://kroki.io/',
     header: '',
     diagramTypes: [
+        { prettyName: "Diagrams.net", krokiBlockName: "diagramsnet", obsidianBlockName: "diagramsnet", description: "", url: "https://github.com/jgraph/drawio", enabled: false, toggle: null },
+
         { prettyName: "BlockDiag", krokiBlockName: "blockdiag", obsidianBlockName: "blockdiag", description: "block diag !!", url: "https://github.com/blockdiag/blockdiag", enabled: true, toggle: null },
         { prettyName: "BPMN", krokiBlockName: "bpmn", obsidianBlockName: "bpmn", description: "", url: "https://github.com/bpmn-io/bpmn-js", enabled: true, toggle: null },
         { prettyName: "Bytefield", krokiBlockName: "bytefield", obsidianBlockName: "bytefield", description: "", url: "https://github.com/Deep-Symmetry/bytefield-svg/", enabled: true, toggle: null },
@@ -29,8 +31,8 @@ const DEFAULT_SETTINGS: KrokiSettings = {
         { prettyName: "PacketDiag", krokiBlockName: "packetdiag", obsidianBlockName: "packetdiag", description: "", url: "https://github.com/blockdiag/nwdiag", enabled: true, toggle: null },
         { prettyName: "RackDiag", krokiBlockName: "rackdiag", obsidianBlockName: "rackdiag", description: "", url: "https://github.com/blockdiag/nwdiag", enabled: true, toggle: null },
         { prettyName: "C4 with PlantUML", krokiBlockName: "c4plantuml", obsidianBlockName: "c4plantuml", description: "", url: "https://github.com/RicardoNiepel/C4-PlantUML", enabled: true, toggle: null },
+        { prettyName: "D2", krokiBlockName: "d2", obsidianBlockName: "d2", description: "", url: "https://github.com/terrastruct/d2", enabled: true, toggle: null },
         { prettyName: "Ditaa", krokiBlockName: "ditaa", obsidianBlockName: "ditaa", description: "", url: "http://ditaa.sourceforge.net/", enabled: true, toggle: null },
-        { prettyName: "Diagrams.net", krokiBlockName: "diagramsnet", obsidianBlockName: "diagramsnet", description: "", url: "https://github.com/jgraph/drawio", enabled: false, toggle: null },
         { prettyName: "Erd", krokiBlockName: "erd", obsidianBlockName: "erd", description: "", url: "https://github.com/BurntSushi/erd", enabled: true, toggle: null },
         { prettyName: "Excalidraw", krokiBlockName: "excalidraw", obsidianBlockName: "excalidraw", description: "", url: "https://github.com/excalidraw/excalidraw", enabled: true, toggle: null },
         { prettyName: "GraphViz", krokiBlockName: "graphviz", obsidianBlockName: "graphviz", description: "", url: "https://www.graphviz.org/", enabled: true, toggle: null },
@@ -43,9 +45,8 @@ const DEFAULT_SETTINGS: KrokiSettings = {
         { prettyName: "UMlet", krokiBlockName: "umlet", obsidianBlockName: "umlet", description: "", url: "https://github.com/umlet/umlet", enabled: true, toggle: null },
         { prettyName: "Vega", krokiBlockName: "vega", obsidianBlockName: "vega", description: "", url: "https://github.com/vega/vega", enabled: true, toggle: null },
         { prettyName: "Vega-Lite", krokiBlockName: "vegalite", obsidianBlockName: "vegalite", description: "", url: "https://github.com/vega/vega-lite", enabled: true, toggle: null },
-        { prettyName: "D2", krokiBlockName: "d2", obsidianBlockName: "d2", description: "", url: "https://github.com/terrastruct/d2", enabled: true, toggle: null },
-        { prettyName: "WireViz", krokiBlockName: "wireviz", obsidianBlockName: "wireviz", description: "", url: "https://github.com/formatc1702/WireViz", enabled: true, toggle: null },
-        { prettyName: "WaveDrom", krokiBlockName: "wavedrom", obsidianBlockName: "wavedrom", description: "", url: "https://github.com/wavedrom/wavedrom", enabled: true, toggle: null }
+        { prettyName: "WaveDrom", krokiBlockName: "wavedrom", obsidianBlockName: "wavedrom", description: "", url: "https://github.com/wavedrom/wavedrom", enabled: true, toggle: null },
+        { prettyName: "WireViz", krokiBlockName: "wireviz", obsidianBlockName: "wireviz", description: "", url: "https://github.com/formatc1702/WireViz", enabled: true, toggle: null }
     ]
 
 }
