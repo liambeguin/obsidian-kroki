@@ -58,7 +58,8 @@ export default class KrokiPlugin extends Plugin {
     settings: KrokiSettings;
 
     svgProcessor = async (diagType: string, source: string, el: HTMLElement, _: MarkdownPostProcessorContext) => {
-        const dest = document.createElement('div');
+        let dest = document.createElement('div');
+        dest.style = "display: flex; justify-content: center;";
         const urlPrefix = this.settings.server_url + diagType + "/svg/";
         source = source.replace(/&nbsp;/gi, " ");
 
