@@ -1,4 +1,4 @@
-BlockDiag
+# BlockDiag
 ```blockdiag
 blockdiag {
   Kroki -> generates -> "Block diagrams";
@@ -10,7 +10,7 @@ blockdiag {
 }
 ```
 
-BPMN
+# BPMN
 ```bpmn
 <?xml version="1.0" encoding="UTF-8"?>   
 <semantic:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:semantic="http://www.omg.org/spec/BPMN/20100524/MODEL" id="_1275940932088" targetNamespace="http://www.trisotech.com/definitions/_1275940932088" exporter="Camunda Modeler" exporterVersion="1.16.0">
@@ -397,7 +397,7 @@ BPMN
 </semantic:definitions>
 ```
 
-Bytefield
+# Bytefield
 ```bytefield
 (defattrs :bg-green {:fill "#a0ffa0"})
 (defattrs :bg-yellow {:fill "#ffffa0"})
@@ -466,7 +466,7 @@ Bytefield
 (draw-bottom)
 ```
 
-SeqDiag
+# SeqDiag
 ```seqdiag
 seqdiag {
   browser  -> webserver [label = "GET /seqdiag/svg/base64"];
@@ -476,7 +476,7 @@ seqdiag {
 }
 ```
 
-ActDiag
+# ActDiag
 ```actdiag
 actdiag { 
   write -> convert -> image
@@ -492,7 +492,7 @@ actdiag {
 }
 ```
 
-NwDiag
+# NwDiag
 ```nwdiag
 nwdiag { 
   network dmz {
@@ -512,7 +512,7 @@ nwdiag {
 }
 ```
 
-PacketDiag
+# PacketDiag
 ```packetdiag
 packetdiag {
   colwidth = 32;
@@ -538,7 +538,7 @@ packetdiag {
 }
 ```
 
-RackDiag
+# RackDiag
 ```rackdiag
 rackdiag { 
   16U;
@@ -552,7 +552,7 @@ rackdiag {
 }
 ```
 
-C4 with PlantUML
+# C4 with PlantUML
 ```c4plantuml
 @startuml 
 !include C4_Context.puml
@@ -572,7 +572,7 @@ Rel(banking_system, mainframe, "Uses")
 @enduml
 ```
 
-Ditaa
+# Ditaa
 ```ditaa
       +--------+ 
       |        |
@@ -601,7 +601,7 @@ Ditaa
 
 ```
 
-Diagrams.net
+# Diagrams.net
 ```diagramsnet
 <mxfile host="Electron" modified="2022-03-26T10:52:07.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/17.2.1 Chrome/96.0.4664.174 Electron/16.1.0 Safari/537.36" etag="c7rPkDjiJFuVDdgIdBCQ" version="17.2.1" type="device">
   <diagram id="is4nKnoC7knK3tbmEpOL" name="ページ1">
@@ -691,7 +691,7 @@ Diagrams.net
 </mxfile>
 ```
 
-Erd
+# Erd
 ```erd
 [Person] 
 *name
@@ -708,7 +708,7 @@ country
 Person *--1 Location
 ```
 
-Excalidraw
+# Excalidraw
 ```excalidraw
 { 
   "type": "excalidraw",
@@ -1407,7 +1407,7 @@ Excalidraw
 }
 ```
 
-GraphViz
+# GraphViz
 ```graphviz
 digraph D { 
   subgraph cluster_p {
@@ -1434,7 +1434,7 @@ digraph D {
 }
 ```
 
-Mermaid
+# Mermaid
 ```kroki-mermaid
 graph TD 
   A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
@@ -1444,7 +1444,7 @@ graph TD
   C --> F[ Advocating ]
 ```
 
-Nomnoml
+# Nomnoml
 ```nomnoml
 [Pirate|eyeCount: Int|raid();pillage()| 
   [beard]--[parrot]
@@ -1461,7 +1461,7 @@ Nomnoml
 [singing]<->[rum]
 ```
 
-Pikchr
+# Pikchr
 ```pikchr
 $r = 0.2in
 linerad = 0.75*$r
@@ -1521,7 +1521,7 @@ line right until even with X9 - ($r,0) \
   then up until even with X9 then to X9
 ```
   
-PlantUML
+# PlantUML
 ```kroki-plantuml
 Bob -> Alice : hello [[https://www.google.com]]
 Alice -> Wander: hello
@@ -1533,7 +1533,7 @@ Wonderland -> Alice : WTF?
 Alice -> Bob: hello
 ```
 
-Svgbob
+# Svgbob
 ```svgbob
                   .-,(  ),-.
    ___  _      .-(          )-.
@@ -1546,7 +1546,8 @@ Svgbob
                                 /::::/ |__| 
 ```
 
-UMlet (https://gitter.im/kroki-project/community?at=5fa9255d7cac87158f96c750)
+# UMlet
+https://gitter.im/kroki-project/community?at=5fa9255d7cac87158f96c750
 ```umlet
 <?xml version="1.0" encoding="UTF-8"?><umlet_diagram><element><type>com.umlet.element.base.Class</type><coordinates><x>80</x><y>250</y><w>110</w><h>40</h></coordinates><panel_attributes>&lt;&lt;artefact&gt;&gt;
 Name</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.custom.Artefact</type><coordinates><x>80</x><y>180</y><w>110</w><h>50</h></coordinates><panel_attributes>Name</panel_attributes><additional_attributes></additional_attributes></element><element><type>com.umlet.element.custom.Node</type><coordinates><x>20</x><y>20</y><w>250</w><h>330</h></coordinates><panel_attributes>&gt;&lt;&lt;device&gt;&gt;
@@ -1554,7 +1555,7 @@ Name</panel_attributes><additional_attributes></additional_attributes></element>
 &gt;AppServer</panel_attributes><additional_attributes></additional_attributes></element></umlet_diagram>
 ```
 
-Vega
+# Vega
 ```vega
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
@@ -1653,7 +1654,7 @@ Vega
 }
 ```
 
-Vega-Lite
+# Vega-Lite
 ```vegalite
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
@@ -1786,7 +1787,7 @@ Vega-Lite
 }
 ```
 
-D2
+# D2
 ```d2
 D2 Parser: {
   shape: class
@@ -1812,7 +1813,7 @@ D2 Parser: {
 "github.com/terrastruct/d2parser.git" -> D2 Parser
 ```
 
-WaveDrom
+# WaveDrom
 ```wavedrom
 { signal: [
   { name: "clk",         wave: "p.....|..." },
@@ -1823,7 +1824,7 @@ WaveDrom
 ]}
 ```
 
-WireViz
+# WireViz
 ```wireviz
 connectors:
   X1:
